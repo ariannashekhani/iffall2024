@@ -1,0 +1,11 @@
+p {
+    color: black;
+    font-size: 14;
+    line-height: 1.2;
+}
+.character{
+    font-weight: bold;
+}
+.action{
+    font-style: italic;
+}
