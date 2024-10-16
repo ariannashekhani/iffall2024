@@ -1,0 +1,161 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 166px;
+    background-color: red;
+    background-image: url('../images/sunset.jpg');
+    background-size: cover;
+    padding-bottom: 188px;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 16px;
+    line-height: 1;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+    line-height: 1; 
+}
+
+h3{
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 1px;
+}
+
+.caption{
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 8px;
+    line-height: 24.7px;
+    margin-bottom: 0px;
+}
+
+.floated-photo p{
+    text-align: left;
+}
+.float-image{
+    float: right;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    border: 1px solid blueviolet;
+}
+
+section{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.floated-photo{
+    background-color: rgba(255, 179, 212, 100);
+    padding-bottom: 55px;
+}
+
+section > div{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 48px;
+    
+}
+
+
+p{
+    font-size: 18px;
+    margin: 0;
+}
+
+.first-float{
+    line-height: 25.1px;
+    margin-top: 14.5px;
+    margin-bottom: 0px;
+
+}
+
+.second-float{
+    line-height: 25px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+.third-float{
+    line-height: 25px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+section.thumbnail-grid{
+    background-color: rgba(214, 151, 178, 100);
+    padding-bottom: 56px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+.grid li{
+    flex-basis: 47%;
+    display: flex;
+    margin-right: 28px;
+    margin-bottom: 9px;
+    margin-top: 15px;
+}
+
+.grid img{
+    width: 200px;
+    height: 150px;
+    margin-right: 12px;
+}
+
+
+
+.summary p{
+    font-size: 26px;
+    text-align: center;
+    padding: 14px 128px 0 128px;
+    padding-bottom: 100px;
+    margin: 0px;
+    line-height: 36px;
+}
+
+section.summary{
+    background-color: rgba(255, 179, 212, 100); 
+}
+
+
+footer{
+    background-color: rgba(214, 151, 178, 100);
+    padding: 10px 0 12px 0;
+    margin: 0 auto;
+}
+
+
+footer > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 47px;
+}
