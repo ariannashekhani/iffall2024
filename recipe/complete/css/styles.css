@@ -1,0 +1,169 @@
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 238, 220);
+}
+
+p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-family: "Gelasio", serif;
+}
+
+section{
+    margin: 0 auto;
+    width: 100%;
+}
+
+section > div{
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+@media(min-width: 640px) {
+    h1{
+    font-size: 3rem;
+    color: rgb(71, 24, 0);
+    font-family: "Playwrite GB S", cursive;
+}
+}
+
+@media(max-width: 640px) {
+    h1{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(71, 24, 0);
+    font-family: "Playwrite GB S", cursive;
+}
+}
+
+h2{
+    font-size: 1.5rem;
+    font-family: "Playwrite GB S", cursive;
+}
+
+h3{
+    font-size: 1.7rem;
+    font-family: "Playwrite GB S", cursive;
+}
+
+.list{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: "Gelasio", serif;
+}
+
+.steps{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border: 5px;
+    border-color: brown;
+    border-style: dotted;
+    font-family: "Gelasio", serif;
+}
+
+.browning-the-butter{
+    border: 5px;
+    border-color: darkgoldenrod;
+    border-style: dashed;
+}
+
+.butter{
+    width: 200px;
+    height: auto;
+    border: 5px;
+    border-color: darkgoldenrod;
+    border-style: dashed;
+
+}
+
+.dough{
+    width: 200px;
+    height: auto;
+    border: 5px;
+    border-color: brown;
+    border-style: dotted;
+}
+
+@media(min-width: 640px){
+    .instruction-images{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+}
+@media(max-width: 640px){
+    .instruction-images{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+li{
+    margin-top: 10px;
+}
+@media(min-width: 640px){
+    .overview{
+    display: flex;
+    gap: 50px;
+}
+}
+
+@media(max-width: 640px){
+    .overview{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+}
+
+@media(max-width: 640px){
+    .float-image{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+}
+
+@media (min-width: 640px){
+.float-image{
+    float: right;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: auto;
+    background-size: cover;
+}
+}
+
+@media(max-width: 640px){
+    .float-image-two{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+}
+
+@media (min-width: 640px){
+.float-image-two{
+    float: right;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: auto;
+    background-size: cover;
+}
+}
+
+.ingredients{
+    background-color: burlywood;
+}
+
+.storage{
+    background-color: burlywood;
+}
