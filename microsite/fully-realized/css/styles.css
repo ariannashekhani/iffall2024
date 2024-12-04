@@ -148,3 +148,18 @@ p{
     margin-top: 15px;
   }
 
+  @media(min-width: 640px){
+    .landing-page{
+    display: flex;
+    gap: 50px;
+}
+}
+
+@media(max-width: 640px){
+    .landing-page{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+}
+
