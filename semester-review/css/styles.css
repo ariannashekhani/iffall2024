@@ -1,0 +1,115 @@
+h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 0;
+    margin: 0 0 .5em 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 1.6rem;
+    line-height: 1;
+    padding: 0;
+    margin: 0 0 1em 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+header{
+    text-align: center;
+    padding: 60px 30px 40px 30px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 50px 50px 0px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+a#btn_buttons {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_buttons:hover {
+    background-color: black;
+    color: white;
+}
+
+a#btn_recipe {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_recipe:hover {
+    background-color: black;
+    color: white;
+}
+
+a#btn_bogosort {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 80px;
+    padding: 8px 16px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_bogosort:hover {
+    background-color: black;
+    color: white;
+}
+
+a#btn_lalaland {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 80px;
+    padding: 8px 16px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_lalaland:hover {
+    background-color: black;
+    color: white;
+}
